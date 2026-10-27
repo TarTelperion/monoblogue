@@ -1,0 +1,8 @@
+{
+  "name": "The Monoblogue",
+  "status": "In the workshop",
+  "summary": "A personal library, laboratory, language log, and navigable heap of curiosities.",
+  "stack": ["SvelteKit", "JavaScript", "SQLite", "Markdown"],
+  "repository": "",
+  "demo": ""
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">The Monoblogue</title>
+  <desc id="desc">A personal library with unreliable shelving</desc>
+  <rect width="1200" height="630" fill="#fff2f1"/>
+  <circle cx="980" cy="120" r="230" fill="#7eb09b" opacity=".6"/>
+  <circle cx="1070" cy="560" r="330" fill="#b97375" opacity=".65"/>
+  <circle cx="140" cy="600" r="210" fill="#00171f"/>
+  <text x="80" y="250" fill="#00171f" font-family="Georgia, serif" font-size="92">The Monoblogue</text>
+  <text x="86" y="322" fill="#2d2d34" font-family="system-ui, sans-serif" font-size="30" letter-spacing="4">A LIBRARY WITH UNRELIABLE SHELVING</text>
+</svg>

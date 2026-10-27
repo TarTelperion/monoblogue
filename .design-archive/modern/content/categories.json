@@ -1,0 +1,7 @@
+[
+  { "slug": "field-notes", "label": "Field notes", "description": "Observations gathered before they become conclusions." },
+  { "slug": "reading", "label": "Reading", "description": "Books, marginalia, and arguments with absent authors." },
+  { "slug": "making", "label": "Making", "description": "Experiments, projects, and things with fingerprints on them." },
+  { "slug": "etymology", "label": "Etymology", "description": "Words, their luggage, and the routes they took." },
+  { "slug": "dispatches", "label": "Dispatches", "description": "Small reports from wherever I happen to be." }
+]

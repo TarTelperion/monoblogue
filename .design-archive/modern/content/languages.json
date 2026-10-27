@@ -1,0 +1,6 @@
+[
+  { "slug": "spanish", "name": "Spanish", "level": "decent", "cefr": "roughly C-ish", "note": "Reading widely, listening closely, still losing fights with the subjunctive.", "glyph": "Ñ" },
+  { "slug": "german", "name": "German", "level": "passable", "cefr": "roughly B-ish", "note": "Long words, sharp corners, and an improving relationship with word order.", "glyph": "Ü" },
+  { "slug": "japanese", "name": "Japanese", "level": "toddler", "cefr": "roughly A-ish", "note": "Collecting sounds, scripts, and small victories one character at a time.", "glyph": "あ" },
+  { "slug": "bread", "name": "Bread", "level": "bread", "cefr": "theoretical mastery", "note": "Fluent in crumbs. Conversational in sourdough. Grammar remains unknowable.", "glyph": "※" }
+]

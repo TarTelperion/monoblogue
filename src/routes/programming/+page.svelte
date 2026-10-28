@@ -5,15 +5,15 @@
 
 <svelte:head>
   <title>Programming — The Monoblogue</title>
-  <meta name="description" content="Build notes, current experiments, and dispatches from the debugging chair." />
+  <meta name="description" content="Build notes, current experiments, and other things that are ruining my life." />
 </svelte:head>
 
 <section class="page-shell">
   <header class="programming-intro">
     <div>
-      <span class="eyebrow">The laboratory</span>
+      <span class="eyebrow">The lab</span>
       <h1>Programming</h1>
-      <p class="lede">Build notes, current experiments, and dispatches from the debugging chair.</p>
+      <p class="lede">Build notes, current experiments, and other things that are ruining my life.</p>
     </div>
     <aside class="identity-slip">
       <span class="identity-slip__avatar">TT</span>

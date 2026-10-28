@@ -1,3 +1,5 @@
+Index at your own peril. 
+
 User-agent: *
 Allow: /
 Sitemap: https://tartelperion.github.io/monoblogue/sitemap.xml

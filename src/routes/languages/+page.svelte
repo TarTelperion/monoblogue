@@ -6,19 +6,19 @@
 
 <svelte:head>
   <title>Languages — The Monoblogue</title>
-  <meta name="description" content="Progress reports from the long and occasionally grammatical process of learning languages." />
+  <meta name="description" content="Progress reports and meditations on language learning." />
 </svelte:head>
 
 <section class="page-shell">
   <header class="page-intro">
     <span class="eyebrow">The translation desk</span>
     <h1>Languages</h1>
-    <p class="lede">Progress reports from the long and occasionally grammatical process of learning how other people arrange the world.</p>
+    <p class="lede">Progress reports and meditations on the process of learning other ways of processing the world.</p>
   </header>
 
   <aside class="scale-note">
     <strong>The thoroughly unofficial scale:</strong>
-    <span>toddler ≈ A</span><span>passable ≈ B</span><span>decent ≈ C</span><span>bread ≈ transcendence</span>
+    <span>toddler ≈ A</span><span>passable ≈ B</span><span>decent ≈ C</span><span>good = a purely hypothetical of linguistic mastery</span>
   </aside>
 
   <div class="language-grid">

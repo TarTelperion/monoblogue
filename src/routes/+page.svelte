@@ -70,7 +70,7 @@
   <div>
     <span class="eyebrow">When order becomes suspicious</span>
     <h2>There is always<br />The Void.</h2>
-    <p>Every published thought is in there somewhere, breathing against its neighbors. No shelves, no proper sequence, no guarantee you will find what you entered for.</p>
+    <p>Every published thought is in there somewhere, growing like mold in a refrigerator. No shelves, no proper sequence, no guarantee you will find what you entered for.</p>
     <a class="button" href={resolve('/void')}>Get pleasantly lost</a>
   </div>
 </section>

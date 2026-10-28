@@ -125,7 +125,7 @@
 
 <svelte:head>
   <title>The Void — The Monoblogue</title>
-  <meta name="description" content="Every published thought joined into a living, freshly grown map." />
+  <meta name="description" content="Every published thought joined into a living, dubiously grown map." />
 </svelte:head>
 
 <section class="void-page">
@@ -133,7 +133,7 @@
     <div>
       <span class="eyebrow">No catalogue beyond this point</span>
       <h1>The Void</h1>
-      <p>Every published thought belongs to a living membrane. Wander loosely; choose a cell to let one entry take over.</p>
+      <p>Every published thought belongs to a living membrane. Wander at your own risk; choose a cell to let one entry take over.</p>
     </div>
     <aside class="world-note" aria-label="How this world behaves">
       <span>World seed · {worldDate || 'germinating'}</span>
@@ -145,7 +145,7 @@
     class="void-field"
     bind:this={field}
     style={`--field-height:${dimensions.height}px`}
-    aria-label="A living cellular map of all published entries"
+    aria-label="A cellular map of all published entries"
   >
     {#if cells.length}
       <svg

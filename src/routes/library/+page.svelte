@@ -33,14 +33,14 @@
 
 <svelte:head>
   <title>Library — The Monoblogue</title>
-  <meta name="description" content="Essays, notes, marginalia, and other items returned in questionable condition." />
+  <meta name="description" content="Essays, notes, marginalia, and other items returned in unconfirmed condition." />
 </svelte:head>
 
 <section class="page-shell">
   <header class="page-intro">
-    <span class="eyebrow">Order, provisionally</span>
+    <span class="eyebrow">Order, theoretically</span>
     <h1>The Library</h1>
-    <p class="lede">Essays, notes, marginalia, and other items returned in questionable condition.</p>
+    <p class="lede">Essays, notes, marginalia, and other items returned in unconfirmed condition.</p>
   </header>
 
   <div class="catalogue-tools">
@@ -72,7 +72,7 @@
       {/each}
     </div>
   {:else}
-    <p class="empty-state">That shelf is currently occupied by a very confident dust bunny.</p>
+    <p class="empty-state">I thought I already filled this shelf... I'll get to it eventually.</p>
   {/if}
 </section>
 

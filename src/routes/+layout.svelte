@@ -24,7 +24,7 @@
 <header class="site-header">
   <a class="wordmark" href={resolve('/')} aria-label="The Monoblogue, home">
     <span class="wordmark__mark" aria-hidden="true">M</span>
-    <span class="wordmark__copy"><strong>The Monoblogue</strong><small>Private miscellany · Est. MMXXVI</small></span>
+    <span class="wordmark__copy"><strong>The Monoblogue</strong><small>Writing, not shouting into the void · Est. MMXXVI</small></span>
   </a>
   <nav class="desktop-nav" aria-label="Primary navigation">
     {#each navigation as item}

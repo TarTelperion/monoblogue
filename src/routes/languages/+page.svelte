@@ -1,4 +1,6 @@
 <script>
+  import { resolve } from '$app/paths';
+
   let { data } = $props();
 </script>
 
@@ -21,7 +23,7 @@
 
   <div class="language-grid">
     {#each data.languages as language, index}
-      <a class="language-card" href={`/languages/${language.slug}`} style={`--tilt: ${index % 2 ? '1.2deg' : '-1deg'}`}>
+      <a class="language-card" href={resolve('/languages/[language]', { language: language.slug })} style={`--tilt: ${index % 2 ? '1.2deg' : '-1deg'}`}>
         <span class="language-card__glyph" aria-hidden="true">{language.glyph}</span>
         <span class="eyebrow">{language.level} · {language.cefr}</span>
         <h2>{language.name}</h2>

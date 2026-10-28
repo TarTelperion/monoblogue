@@ -1,5 +1,7 @@
 import { getPosts } from '#lib/server/content.js';
 
+export const prerender = true;
+
 const escapeXml = (value) => String(value).replace(/[<>&'"]/g, (character) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' })[character]);
 
 export function GET({ url }) {

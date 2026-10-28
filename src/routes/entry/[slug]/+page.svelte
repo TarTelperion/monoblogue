@@ -1,6 +1,14 @@
 <script>
+  import { resolve } from '$app/paths';
+
   let { data } = $props();
-  const returnHref = $derived(data.post.section === 'programming' ? '/programming' : data.post.section === 'language' && data.post.languages[0] ? `/languages/${data.post.languages[0]}` : '/library');
+  const returnHref = $derived(
+    data.post.section === 'programming'
+      ? resolve('/programming')
+      : data.post.section === 'language' && data.post.languages[0]
+        ? resolve('/languages/[language]', { language: data.post.languages[0] })
+        : resolve('/library')
+  );
 </script>
 
 <svelte:head>
@@ -23,8 +31,8 @@
   <div class="entry-body">{@html data.post.html}</div>
 
   <nav class="entry-pagination" aria-label="Adjacent entries">
-    {#if data.previous}<a href={`/entry/${data.previous.slug}`}><span>Previous</span><strong>{data.previous.title}</strong></a>{:else}<span></span>{/if}
-    {#if data.next}<a href={`/entry/${data.next.slug}`}><span>Next</span><strong>{data.next.title}</strong></a>{/if}
+    {#if data.previous}<a href={resolve('/entry/[slug]', { slug: data.previous.slug })}><span>Previous</span><strong>{data.previous.title}</strong></a>{:else}<span></span>{/if}
+    {#if data.next}<a href={resolve('/entry/[slug]', { slug: data.next.slug })}><span>Next</span><strong>{data.next.title}</strong></a>{/if}
   </nav>
 </article>
 

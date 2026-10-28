@@ -1,13 +1,12 @@
 <script>
   import PostCard from '#lib/components/PostCard.svelte';
-  import { page } from '$app/state';
   import { flip } from 'svelte/animate';
   import { fly } from 'svelte/transition';
   import { onMount } from 'svelte';
 
   let { data } = $props();
-  let selectedCategory = $state(page.url.searchParams.get('category') || 'all');
-  let selectedLanguage = $state(page.url.searchParams.get('language') || '');
+  let selectedCategory = $state('all');
+  let selectedLanguage = $state('');
   let reducedMotion = $state(false);
   let visiblePosts = $derived(data.posts.filter((post) => {
     const categoryMatch = selectedCategory === 'all' || post.categories.includes(selectedCategory);
@@ -16,6 +15,9 @@
   }));
 
   onMount(() => {
+    const query = new URLSearchParams(window.location.search);
+    selectedCategory = query.get('category') || 'all';
+    selectedLanguage = query.get('language') || '';
     const media = matchMedia('(prefers-reduced-motion: reduce)');
     const updatePreference = () => reducedMotion = media.matches;
     updatePreference();

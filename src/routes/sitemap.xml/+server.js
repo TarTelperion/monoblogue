@@ -1,5 +1,7 @@
 import { getLanguages, getPosts } from '#lib/server/content.js';
 
+export const prerender = true;
+
 export function GET({ url }) {
   const site = process.env.PUBLIC_SITE_URL || url.origin;
   const paths = ['/', '/library', '/programming', '/languages', '/void'];

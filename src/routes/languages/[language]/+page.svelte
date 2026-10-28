@@ -1,4 +1,5 @@
 <script>
+  import { resolve } from '$app/paths';
   import PostCard from '#lib/components/PostCard.svelte';
   let { data } = $props();
 </script>
@@ -9,7 +10,7 @@
 </svelte:head>
 
 <section class="page-shell language-detail">
-  <a class="back-link" href="/languages">← All languages</a>
+  <a class="back-link" href={resolve('/languages')}>← All languages</a>
   <header>
     <span class="language-glyph" aria-hidden="true">{data.language.glyph}</span>
     <div><span class="eyebrow">{data.language.level} · {data.language.cefr}</span><h1>{data.language.name}</h1><p class="lede">{data.language.note}</p></div>

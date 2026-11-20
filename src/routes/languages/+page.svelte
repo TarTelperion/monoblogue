@@ -17,8 +17,8 @@
   </header>
 
   <aside class="scale-note">
-    <strong>The thoroughly unofficial scale:</strong>
-    <span>toddler ≈ A</span><span>passable ≈ B</span><span>decent ≈ C</span><span>good = a purely hypothetical of linguistic mastery</span>
+    <strong>The <em>very</em> unofficial scale:</strong>
+    <span>fine ≈ A1-A2</span><span>passable ≈ B1-B2</span><span>decent ≈ C1-C2</span><span>good ≈ a hypothetical state of linguistic mastery</span>
   </aside>
 
   <div class="language-grid">
